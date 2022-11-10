@@ -190,7 +190,7 @@ main .acerca-de article p{
  .main .galeria .foto img{
      vertical-align: top;
      opacity: .6;
-     width: 100%;
+     width: 140%;
  }
 
  .main .galeria .foto img:hover{
@@ -279,15 +279,20 @@ footer .copyright{
 
     header .menu{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         height: 100px;
         width: 100%;
         margin: 0;
         padding: 0;
     }
     header .menu a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0px 0px;
-        font-size: 14px;
+        margin: 0;
+        margin-left: 10px;
+        height: auto;
     }
     header .textos .nombre{
         font-size: 40px;
@@ -352,9 +357,14 @@ footer .copyright{
     }
 
     .main .galeria .foto{
-        height: 250px;
+        height: 150px;
+        overflow: hidden;
     }
 
+    .main .galeria .foto img{
+        width: 100%;
+    }
+    
     .main .ubicacion .direccion,
     .main .ubicacion .horarios{
         width: 100%;
